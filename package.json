@@ -1,0 +1,20 @@
+{
+  "name": "ezlazy",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --minify --outfile=dist/ezlazy.min.js"
+  },
+  "keywords": [
+    "lazyload",
+    "images",
+    "intersectionobserver"
+  ],
+  "author": "Redskullvue",
+  "license": "MIT",
+  "type": "commonjs",
+  "description": "A super lightweight lazy-loading library using IntersectionObserver",
+  "devDependencies": {
+    "esbuild": "^0.25.10"
+  }
+}
