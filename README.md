@@ -31,7 +31,9 @@ import 'ezlazy';
 
 ### Using CDN
 
+```
 <script src="https://unpkg.com/ezlazy/dist/ezlazy.min.js"></script>
+```
 
 ---
 
