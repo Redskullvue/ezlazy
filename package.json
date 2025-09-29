@@ -1,6 +1,6 @@
 {
   "name": "ezlazy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
   "scripts": {
     "build": "esbuild src/index.js --bundle --minify --outfile=dist/ezlazy.min.js"
