@@ -41,19 +41,21 @@ import 'ezlazy';
 
 Super easy to use
 
-### To load images <img> just add the `data-ezlazy="your-image.png"` to your HTML
+To load images <img> just add the `data-ezlazy="your-image.png"` to your HTML
 
 ```
 <img data-ezlazy="image1.jpg" alt="Lazy Image">
 ```
 
-### To load background images from CSS just add the `data-ezlazy-bg="your-image.jpg"` to your HTML
+To load background images from CSS just add the `data-ezlazy-bg="your-image.jpg"` to your HTML
 
 ```
 <div data-ezlazy-bg="background1.jpg"></div>
 ```
 
 That’s it! The library will automatically load images when they come near the viewport.
+
+Ezlazy will also add a class called `ezlazy-loaded` so you can call transitions and effects on it if needed
 
 ---
 
