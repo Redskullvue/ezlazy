@@ -1,6 +1,6 @@
 {
   "name": "ezlazy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "src/index.js",
   "scripts": {
     "build": "esbuild src/index.js --bundle --minify --outfile=dist/ezlazy.min.js"
@@ -10,6 +10,7 @@
     "images",
     "intersectionobserver"
   ],
+  "files" : ["dist"],
   "author": "Redskullvue",
   "license": "MIT",
   "type": "commonjs",
